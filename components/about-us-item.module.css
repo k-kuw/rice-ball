@@ -1,0 +1,10 @@
+.space {
+  margin-left: 10%;
+  margin-right: 10%;
+  border: solid hsl(141, 53%, 31%) 3px;
+  border-radius: 10rem 10rem 10rem 10rem;
+}
+
+.border {
+  border-bottom: 5px dotted hsl(48, 100%, 29%);
+}
