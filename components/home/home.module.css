@@ -1,0 +1,25 @@
+.hometop {
+  position: relative;
+}
+
+.hometop ul {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.border {
+  border-bottom: 5px dotted hsl(48, 100%, 29%);
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.frame {
+  color: hsl(0, 0%, 7%);
+  border: 4px solid hsl(48, 100%, 29%);
+}
+
+.frame:hover {
+  color: hsl(0, 0%, 48%);
+  background-color: hsl(142, 52%, 96%);
+}
