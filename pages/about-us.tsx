@@ -1,9 +1,17 @@
+import Head from "next/head";
+import { Fragment } from "react";
 import AboutUsItem from "../components/about-us-item";
 import BackHome from "../components/back-home";
 import PageTitle from "../components/page-title";
 
+// AboutUsページ
 export default function AboutUs() {
   return (
+    <Fragment>
+      <Head>
+      <title>About Us</title>
+        <meta name="description" content="About us" />
+      </Head>
     <div className="pb-6">
       <BackHome>ABOUT US</BackHome>
       <PageTitle>ABOUT US</PageTitle>
@@ -23,5 +31,6 @@ export default function AboutUs() {
         </AboutUsItem>
       </ul>
     </div>
+    </Fragment>
   );
 }

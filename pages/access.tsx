@@ -1,9 +1,17 @@
+import Head from "next/head";
+import { Fragment } from "react";
 import AccessMap from "../components/access-map";
 import BackHome from "../components/back-home";
 import PageTitle from "../components/page-title";
 
+// Accessページ
 export default function Access() {
   return (
+    <Fragment>
+    <Head>
+    <title>Access</title>
+      <meta name="description" content="Access" />
+    </Head>
     <div>
       <BackHome>ACCESS</BackHome>
       <PageTitle>ACCESS</PageTitle>
@@ -17,5 +25,6 @@ export default function Access() {
         </div>
       </div>
     </div>
+    </Fragment>
   );
 }

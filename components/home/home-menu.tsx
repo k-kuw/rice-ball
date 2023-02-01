@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import classes from "./home.module.css";
 
+// HomeページのMenuコンポーネント
 export default function HomeMenu() {
   return (
     <div className="columns has-background-warning-light p-6">

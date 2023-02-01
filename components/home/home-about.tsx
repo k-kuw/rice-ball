@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import classes from "./home.module.css";
 
+// HomeページのAboutUsコンポーネント
 export default function HomeAbout() {
   return (
     <div className="mt-6">
@@ -70,7 +71,7 @@ export default function HomeAbout() {
         </li>
       </ul>
       <div className="columns is-centered m-6">
-        <Link href="/aboutus">
+        <Link href="/about-us">
           <div
             className={`column ${classes.frame}  px-6 py-3 has-text-weight-semibold`}
           >
