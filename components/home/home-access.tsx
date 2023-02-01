@@ -2,6 +2,7 @@ import Link from "next/link";
 import AccessMap from "../access-map";
 import classes from "./home.module.css";
 
+// HomeページのAccessコンポーネント
 export default function HomeAccess() {
   return (
     <div className="columns is-flex-direction-row-reverse pt-6">
@@ -13,7 +14,7 @@ export default function HomeAccess() {
           <p className="is-size-3 m-4">〒000-0000 東京都新宿区新宿0-0-0</p>
         </div>
         <div className="columns is-centered pt-6 mb-6">
-          <Link href="/aboutus">
+          <Link href="/access">
             <div
               className={`column ${classes.frame}  px-6 py-3 has-text-weight-semibold has-text-centered mx-6`}
             >

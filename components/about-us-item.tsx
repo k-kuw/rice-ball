@@ -1,7 +1,16 @@
 import Image from "next/image";
 import classes from "./about-us-item.module.css"
 
-function AboutUsItem(props: any) {
+// AboutUsページの内容型定義
+type OurInfo = {
+  title: string;
+  image: string;
+  addClass: string;
+  children: React.ReactNode
+}
+
+// AboutUsページの内容のコンポーネント
+function AboutUsItem(props: OurInfo) {
   return (
     <li className={`columns mt-6 has-background-warning-light ${props.addClass} ${classes.space}`}>
       <div className="mt-6 column mx-6">

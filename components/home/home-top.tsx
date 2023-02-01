@@ -1,6 +1,7 @@
 import Image from "next/image";
 import classes from "./home.module.css";
 
+// HomeページのTopコンポーネント
 export default function HomeTop() {
   return (
     <div className={`has-background-warning-light p-6 ${classes.hometop}`}>

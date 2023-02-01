@@ -1,3 +1,5 @@
+
+// Googleマップ
 export default function AccessMap() {
   return (
       <div className="column  p-6">
